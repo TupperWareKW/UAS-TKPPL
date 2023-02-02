@@ -5,7 +5,8 @@ import Profile from "../pages/profile.js";
 const routes = {
     '': Landing,
     'home': Home,
-    'profile': Profile
+    'profile': Profile,
+    'chart': Chart,
 }
 
 export default routes;
