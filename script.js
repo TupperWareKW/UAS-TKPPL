@@ -1,4 +1,5 @@
 import routes from "./routes/routes.js";
+import headerFooter from "./pages/templates/main-template.js";
 
 async function renderPage() {
     const url = window.location.hash.slice(1).toLocaleLowerCase();
