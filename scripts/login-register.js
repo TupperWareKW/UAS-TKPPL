@@ -1,6 +1,7 @@
 import Landing from "../pages/landing.js";
 import { hiddeAnimation } from "../utils/loading-animation.js";
 import InfoUser from "./data/user.js";
+import {saveToFirebase, getFromFirebase} from "./firebase-database.js";
 
 firebase.auth().onAuthStateChanged((user) => {
     if(user) {

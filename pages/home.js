@@ -1,6 +1,6 @@
 import { dataImg, nameProduck } from "../scripts/data/data-produck.js";
 import InfoUser from "../scripts/data/user.js";
-// import { saveToFirebase } from "../scripts/firebase-database.js";
+import { saveToFirebase } from "../scripts/firebase-database.js";
 
 const Home = {
     async render() {
