@@ -1,0 +1,81 @@
+.profile-img {
+    text-align: center;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid rgb(153, 153, 153); */
+}
+
+.profile-img #profile {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.info-profile {
+    padding: 10px;
+}
+
+.profile h3 {
+    text-align: center;
+}
+
+.profile table input {
+    font-size: 1rem;
+}
+
+.info-profile table, .info-alamat table {
+    margin: 10px auto;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.info-profile tr, .info-alamat tr{
+    padding: 20px 0;
+}
+
+.info-profile th, .info-alamat th{
+    color: rgb(85, 85, 85);
+    font-weight: normal;
+    padding-right: 40px;
+}
+
+.profile .row-button {
+    text-align: center;
+}
+
+.row-button button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: red;
+    color: white;
+}
+
+.btn-save {
+    background-color: #17e224;
+    color: white;
+}
+
+.btn-edit:disabled, #btn-save-profile:disabled {
+    opacity: .7;
+}
+
+.logout {
+    text-align: center;
+}
+
+.logout button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.logout button:hover {
+    color:  black;
+}
