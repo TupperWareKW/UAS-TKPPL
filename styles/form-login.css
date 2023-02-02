@@ -1,0 +1,202 @@
+.background-login {
+    height: 90vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-header {
+    text-align: center;
+    margin: 30px 0 20px;
+    color: #42b549;
+}
+
+.form {
+    margin: -40px auto;
+    padding: 40px 60px;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 5px rgb(180, 180, 180);
+}
+
+.form h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-email-error, .text-pass-error {
+    padding: 2px;
+    font-size: .9rem;
+    font-weight: bold;
+    color: red;
+    display: none;
+}
+
+.login-form,
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input,
+.register-form input {
+    margin-bottom: 7px;
+    padding: 5px 7px;
+    width: 240px;
+    height: 20px;
+    font-size: .9rem;
+    border: 1px solid aqua;
+    border-radius: 3px;
+}
+
+.login-form button,
+.register-form button {
+    width: 100%;
+    padding: 7px 7px;
+    font-size: .92rem;
+    font-weight: bold;
+    align-self: center;
+    cursor: pointer;
+    border: 1px solid rgb(182, 182, 182);
+    outline: none;
+}
+
+.login-form button:hover,
+.register-form button:hover {
+    border: 1px solid aqua;
+    background-color: aqua;
+}
+
+.login-form button:active,
+.register-form button:active {
+    border: 1px solid aqua;
+    background-color: white;
+}
+
+.login-form #forget-pass {
+    font-size: .85rem;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#forget-pass:hover {
+    color: #42b549;
+    text-decoration: underline;
+}
+
+.line-divide {
+    display: flex;
+    margin: 10px 0;
+    text-align: center;
+    color: rgb(145, 145, 145);
+    align-items: center;
+}
+
+.garis {
+    display: inline-block;
+    border: 1px solid rgb(145, 145, 145);
+    width: 50%;
+}
+
+.text-garis {
+    white-space: nowrap;
+    padding: 0 10px;
+    font-size: .85rem;
+}
+
+.google-login {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.google-login:hover {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid aqua;
+}
+
+.google-login img {
+    width: 20px;
+}
+
+.google-login p {
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.bottom-form {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bottom-form p {
+    font-size: .85rem;
+}
+
+.bottom-form span {
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bottom-form span:hover {
+    text-decoration: underline;
+}
+
+
+/* animation loading */
+.loading-animation {
+    margin-top: 10px;
+    text-align: center;
+    display: none;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: aqua transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
