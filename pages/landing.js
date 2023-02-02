@@ -1,4 +1,6 @@
 import loginTemplate from "./templates/login.js";
+import registerTemplate from "./templates/register.js";
+import { showAnimation } from "../utils/loading-animation.js";
 
 const Landing = {
     render() {
